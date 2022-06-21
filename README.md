@@ -19,6 +19,7 @@ weserver 접속
   - http://localhost:8080 - airflow/airflow
   
 방식2. production 환경 구축
+ref) https://airflow.apache.org/docs/docker-stack/build.html
   
 
 ```
