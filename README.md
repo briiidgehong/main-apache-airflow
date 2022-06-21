@@ -13,4 +13,7 @@ $ docker-compose up airflow-init
 $ docker-compose up -d
 ```
 
+http://localhost:8080 
+airflow / airflow
+
 방식2. production 환경 구축
