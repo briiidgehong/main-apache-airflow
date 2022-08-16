@@ -23,7 +23,7 @@ ref) https://airflow.apache.org/docs/docker-stack/build.html
   
  
 ref) airflow tutorial
-
+https://www.youtube.com/watch?v=K9AnJ9_ZAXE&t=1642s
 
 ```
 
