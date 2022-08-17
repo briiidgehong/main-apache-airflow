@@ -1,0 +1,22 @@
+[2022-08-16 20:09:18,489] {scheduler_job.py:694} INFO - Starting the scheduler
+[2022-08-16 20:09:18,491] {scheduler_job.py:699} INFO - Processing each file at most -1 times
+[2022-08-16 20:09:18,497] {manager.py:163} INFO - Launched DagFileProcessorManager with pid: 35320
+[2022-08-16 20:09:18,500] {scheduler_job.py:1212} INFO - Resetting orphaned tasks for active dag runs
+[2022-08-16 20:09:19,382] {settings.py:55} INFO - Configured default timezone Timezone('UTC')
+[2022-08-16 20:09:19,385] {manager.py:441} WARNING - Because we cannot use more than 1 thread (parsing_processes = 2) when using sqlite. So we set parallelism to 1.
+[2022-08-17 00:25:01,025] {scheduler_job.py:1212} INFO - Resetting orphaned tasks for active dag runs
+[2022-08-17 00:25:01,031] {scheduler_job.py:1235} INFO - Marked 1 SchedulerJob instances as failed
+[2022-08-17 08:20:37,711] {scheduler_job.py:1212} INFO - Resetting orphaned tasks for active dag runs
+[2022-08-17 08:25:38,244] {scheduler_job.py:1212} INFO - Resetting orphaned tasks for active dag runs
+[2022-08-17 08:30:39,101] {scheduler_job.py:1212} INFO - Resetting orphaned tasks for active dag runs
+[2022-08-17 08:35:39,703] {scheduler_job.py:1212} INFO - Resetting orphaned tasks for active dag runs
+[2022-08-17 08:40:40,316] {scheduler_job.py:1212} INFO - Resetting orphaned tasks for active dag runs
+[2022-08-17 08:55:07,263] {scheduler_job.py:1212} INFO - Resetting orphaned tasks for active dag runs
+[2022-08-17 08:58:38,481] {scheduler_job.py:173} INFO - Exiting gracefully upon receiving signal 15
+[2022-08-17 08:58:39,497] {process_utils.py:120} INFO - Sending Signals.SIGTERM to group 35320. PIDs of all processes in the group: [35320]
+[2022-08-17 08:58:39,498] {process_utils.py:75} INFO - Sending the signal Signals.SIGTERM to group 35320
+[2022-08-17 08:58:39,920] {process_utils.py:70} INFO - Process psutil.Process(pid=35320, status='terminated', exitcode=0, started='20:09:18') (35320) terminated with exit code 0
+[2022-08-17 08:58:39,937] {process_utils.py:120} INFO - Sending Signals.SIGTERM to group 35320. PIDs of all processes in the group: []
+[2022-08-17 08:58:39,938] {process_utils.py:75} INFO - Sending the signal Signals.SIGTERM to group 35320
+[2022-08-17 08:58:39,939] {process_utils.py:89} INFO - Sending the signal Signals.SIGTERM to process 35320 as process group is missing.
+[2022-08-17 08:58:39,939] {scheduler_job.py:753} INFO - Exited execute loop
