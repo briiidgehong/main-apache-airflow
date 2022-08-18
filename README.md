@@ -2,7 +2,7 @@
 
 ref) airflow tutorial / https://www.youtube.com/watch?v=K9AnJ9_ZAXE&t=1642s / https://github.com/apache/airflow
 
-### - 1. RUN AIRFLOW IN PYTHON ENV 
+### - Run Airflow in Python Env
 ```
 python3 -m venv .venv
 
@@ -32,26 +32,21 @@ The DAGs list may not update, and new tasks will not be scheduled.
 airflow scheduler -D
 ```
 
-### - 2. RUN AIRFLOW IN DOCKER
-### - 3. RUN AIRFLOW IN DOCKER
-AIRFLOW CORE CONCEPTS
-AIRFLOW TASK LIFECYCLE
-AIRFLOW BASIC ARCHITECTURE
-10:44 - Run Airflow in Docker
-17:55 - Airflow Basics and Core Concepts
-21:55 - Airflow Task Lifecycle
-26:19 - Airflow Basic Architecture
-28:14 - Airflow DAG with Bash Operator
-40:09 - Airflow DAG with Python Operator
-45:04 - Data Sharing via Airflow XComs
-52:53 - Airflow Task Flow API
-57:56 - Airflow Catch Up and Backfill
-01:02:09 - Airflow Scheduler with Cron Expression
-01:07:25 - Airflow Connection to Postgres
-01:08:58 - Airflow Postgres Operator
-01:19:30 - Airflow Docker Install Python Package 2 ways
-01:29:34 - Airflow AWS S3 Sensor Operator
-01:42:37 - Airflow Hooks S3 PostgreSQL
+### - Run Airflow in Docker
+### - Airflow Basics and Core Concepts
+### - Airflow Task Lifecycle
+### - Airflow Basic Architecture
+### - Airflow DAG with Bash Operator
+### - Airflow DAG with Python Operator
+### - Data Sharing via Airflow XComs
+### - Airflow Task Flow API
+### - Airflow Catch Up and Backfill
+### - Airflow Scheduler with Cron Expression
+### - Airflow Connection to Postgres
+### - Airflow Postgres Operator
+### - Airflow Docker Install Python Package 2 ways
+### - Airflow AWS S3 Sensor Operator
+### - Airflow Hooks S3 PostgreSQL
 
 
 
