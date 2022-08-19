@@ -33,6 +33,23 @@ airflow scheduler -D
 ```
 
 ### - Run Airflow in Docker
+ref) https://airflow.apache.org/docs/apache-airflow/stable/start/docker.html
+```
+# dependency
+docker --version
+docker-compose --version
+
+# download docker-compose.yaml
+curl -LfO 'https://airflow.apache.org/docs/apache-airflow/2.3.3/docker-compose.yaml'
+
+# Initializing Environment
+mkdir -p ./dags ./logs ./plugins
+(only linux enviroment not mac os) echo -e "AIRFLOW_UID=$(id -u)" > .env
+docker-compose up airflow-init
+
+
+
+```
 ### - Airflow Basics and Core Concepts
 ### - Airflow Task Lifecycle
 ### - Airflow Basic Architecture
