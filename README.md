@@ -52,7 +52,11 @@ docker-compose up airflow-init
 ```
 ### - Airflow Basics and Core Concepts
 ### - Airflow Task Lifecycle
+<img width="870" alt="스크린샷 2022-08-19 오후 8 08 04" src="https://user-images.githubusercontent.com/73451727/185606684-698ceb33-5471-477a-8577-3b598be52e33.png">
+
 ### - Airflow Basic Architecture
+<img width="883" alt="스크린샷 2022-08-19 오후 8 12 46" src="https://user-images.githubusercontent.com/73451727/185606653-bb0f740d-8046-4fe0-b62c-2df4a0d79d1f.png">
+
 ### - Airflow DAG with Bash Operator
 ### - Airflow DAG with Python Operator
 ### - Data Sharing via Airflow XComs
