@@ -33,7 +33,6 @@ airflow scheduler -D
 ```
 
 ### - Run Airflow in Docker
-ref) https://airflow.apache.org/docs/apache-airflow/stable/start/docker.html
 ```
 # dependency
 docker --version
