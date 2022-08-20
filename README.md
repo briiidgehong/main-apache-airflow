@@ -4,6 +4,7 @@
 ### - Airflow Task Lifecycle
 <img width="870" alt="스크린샷 2022-08-19 오후 8 08 04" src="https://user-images.githubusercontent.com/73451727/185606684-698ceb33-5471-477a-8577-3b598be52e33.png">
 
+
 ### - Run Airflow in Python Env
 ```
 python3 -m venv .venv
@@ -33,6 +34,7 @@ The DAGs list may not update, and new tasks will not be scheduled.
 
 airflow scheduler -D
 ```
+
 
 ### - Run Airflow in Docker
 ```
@@ -69,6 +71,7 @@ docker-compose down --volumes --rmi all
 ```
 <img width="1279" alt="스크린샷 2022-08-20 오전 10 58 21" src="https://user-images.githubusercontent.com/73451727/185725542-ebeda8d7-42f2-4a17-aed8-73bd6d941d7d.png">
 
+
 ### - Airflow Basic Architecture
 ✅ [COMMIT: CeleryExecutor -> LocalExecutor](https://github.com/briiidgehong/apache-airflow/commit/ddb76b6b90e6253a9d61cab748bcab5dbed429d0)
 - exclude redis, worker
@@ -86,6 +89,7 @@ docker-compose.yaml -> AIRFLOW_CORE_LOAD_EXAMPLES = false 처리 # example dag �
 docker-compose up airflow-init # database init
 docker-compose up -d # 0.0.0.0:8080 example dag 생성 안된것 확인
 ```
+
 
 ### - Airflow Docker Install Python Package Using Extension way
 dockerfile 로 base image build / build 시에 requirement.txt install 
