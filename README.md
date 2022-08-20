@@ -2,6 +2,10 @@
 
 ref) airflow tutorial / https://www.youtube.com/watch?v=K9AnJ9_ZAXE&t=1642s / https://github.com/apache/airflow
 
+### - Airflow Basics and Core Concepts
+### - Airflow Task Lifecycle
+<img width="870" alt="스크린샷 2022-08-19 오후 8 08 04" src="https://user-images.githubusercontent.com/73451727/185606684-698ceb33-5471-477a-8577-3b598be52e33.png">
+
 ### - Run Airflow in Python Env
 ```
 python3 -m venv .venv
@@ -70,22 +74,28 @@ docker-compose down --volumes --rmi all
 ### - Airflow Basic Architecture
 ✅ [COMMIT: CeleryExecutor -> LocalExecutor](https://github.com/briiidgehong/apache-airflow/commit/ddb76b6b90e6253a9d61cab748bcab5dbed429d0)
 <img width="883" alt="스크린샷 2022-08-19 오후 8 12 46" src="https://user-images.githubusercontent.com/73451727/185606653-bb0f740d-8046-4fe0-b62c-2df4a0d79d1f.png">
+```
+# create DAG
+#  Bash Operator
+# Python Operator
 
-### - Airflow Basics and Core Concepts
-### - Airflow Task Lifecycle
-<img width="870" alt="스크린샷 2022-08-19 오후 8 08 04" src="https://user-images.githubusercontent.com/73451727/185606684-698ceb33-5471-477a-8577-3b598be52e33.png">
+```
 
-
-### - Airflow DAG with Bash Operator
-### - Airflow DAG with Python Operator
 ### - Data Sharing via Airflow XComs
-### - Airflow Task Flow API
+### - Airflow Task Flow API (decorator를 사용해 DAG와 Tast를 구성하는 방식)
 ### - Airflow Catch Up and Backfill
 ### - Airflow Scheduler with Cron Expression
+
+```
+
+### - Airflow Docker Install Python Package Using Docker Extension way
+dockerfile 로 base image build / build 시에 requirement.txt install 
+docker-compose base image를 해당 dockerfile로 교체
+
+
+### Postgres hook
 ### - Airflow Connection to Postgres
 ### - Airflow Postgres Operator
-### - Airflow Docker Install Python Package 2 ways
-### - Airflow AWS S3 Sensor Operator
 ### - Airflow Hooks S3 PostgreSQL
 
 
