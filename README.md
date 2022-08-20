@@ -44,7 +44,8 @@ curl -LfO 'https://airflow.apache.org/docs/apache-airflow/2.3.3/docker-compose.y
 
 # Initializing Environment
 mkdir -p ./dags ./logs ./plugins
-(only linux enviroment not mac os) echo -e "AIRFLOW_UID=$(id -u)" > .env
+echo -e "AIRFLOW_UID=$(id -u)" > .env
+.env file -> AIRFLOW_UID=50000
 docker-compose up airflow-init
 
 
