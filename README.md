@@ -42,11 +42,25 @@ docker-compose --version *(> v1.29.1)
 # download docker-compose.yaml
 curl -LfO 'https://airflow.apache.org/docs/apache-airflow/2.3.3/docker-compose.yaml'
 
+- airflow-scheduler- 스케줄러 는 모든 작업과 DAG를 모니터링한 다음 종속성이 완료되면 작업 인스턴스를 트리거합니다
+- airflow-webserver- 웹서버는 에서 사용할 수 있습니다 http://localhost:8080
+- airflow-worker- 스케줄러에 의해 주어진 작업을 실행하는 작업자
+- airflow-init- 초기화 서비스
+- postgres- 데이터베이스
+- redis- redis - 스케줄러에서 작업자에게 메시지를 전달하는 브로커
+
+
 # Initializing Environment
 mkdir -p ./dags ./logs ./plugins
 echo -e "AIRFLOW_UID=$(id -u)" > .env
 .env file -> AIRFLOW_UID=50000
+
+# Initialize the database
 docker-compose up airflow-init
+
+# Running Airflow
+docker-compose up
+0.0.0.0:8080 airflow / airflow
 
 
 
