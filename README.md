@@ -86,5 +86,9 @@ docker-compose down --volumes --rmi all
 ### - Airflow Hooks S3 PostgreSQL
 
 
+ref) 
+https://www.youtube.com/watch?v=K9AnJ9_ZAXE&t=1642s
+https://airflow.apache.org/docs
+
 
 
