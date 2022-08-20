@@ -87,6 +87,9 @@ docker-compose up airflow-init # database init
 docker-compose up -d # 0.0.0.0:8080 example dag 생성 안된것 확인
 ```
 
+### - Airflow Docker Install Python Package Using Extension way
+dockerfile 로 base image build / build 시에 requirement.txt install 
+docker-compose base image를 해당 dockerfile로 교체
 
 
 ### - Data Sharing via Airflow XComs
