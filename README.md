@@ -60,9 +60,10 @@ docker-compose up airflow-init
 
 # Running Airflow
 docker-compose up
-0.0.0.0:8080 airflow / airflow
+0.0.0.0:8080 (id: airflow / pass: airflow)
 
-
+# cleaning
+docker-compose down --volumes --rmi all
 
 ```
 ### - Airflow Basics and Core Concepts
