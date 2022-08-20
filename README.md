@@ -66,6 +66,8 @@ docker-compose up
 docker-compose down --volumes --rmi all
 
 ```
+<img width="1279" alt="스크린샷 2022-08-20 오전 10 58 21" src="https://user-images.githubusercontent.com/73451727/185725542-ebeda8d7-42f2-4a17-aed8-73bd6d941d7d.png">
+
 ### - Airflow Basics and Core Concepts
 ### - Airflow Task Lifecycle
 <img width="870" alt="스크린샷 2022-08-19 오후 8 08 04" src="https://user-images.githubusercontent.com/73451727/185606684-698ceb33-5471-477a-8577-3b598be52e33.png">
