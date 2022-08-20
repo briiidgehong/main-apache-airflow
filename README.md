@@ -69,6 +69,7 @@ docker-compose down --volumes --rmi all
 <img width="1279" alt="스크린샷 2022-08-20 오전 10 58 21" src="https://user-images.githubusercontent.com/73451727/185725542-ebeda8d7-42f2-4a17-aed8-73bd6d941d7d.png">
 
 ### - Airflow Basic Architecture
+✅ [COMMIT: CeleryExecutor -> LocalExecutor](https://github.com/briiidgehong/apache-airflow/commit/ddb76b6b90e6253a9d61cab748bcab5dbed429d0)
 <img width="883" alt="스크린샷 2022-08-19 오후 8 12 46" src="https://user-images.githubusercontent.com/73451727/185606653-bb0f740d-8046-4fe0-b62c-2df4a0d79d1f.png">
 
 ### - Airflow Basics and Core Concepts
