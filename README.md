@@ -37,7 +37,7 @@ ref) https://airflow.apache.org/docs/apache-airflow/stable/start/docker.html
 ```
 # dependency
 docker --version
-docker-compose --version
+docker-compose --version *(> v1.29.1)
 
 # download docker-compose.yaml
 curl -LfO 'https://airflow.apache.org/docs/apache-airflow/2.3.3/docker-compose.yaml'
