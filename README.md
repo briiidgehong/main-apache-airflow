@@ -87,8 +87,8 @@ docker-compose down --volumes --rmi all
 
 
 ref) 
-https://www.youtube.com/watch?v=K9AnJ9_ZAXE&t=1642s
-https://airflow.apache.org/docs
+##### https://www.youtube.com/watch?v=K9AnJ9_ZAXE&t=1642s
+##### https://airflow.apache.org/docs/apache-airflow/stable/start/docker.html
 
 
 
