@@ -77,7 +77,8 @@ docker-compose down --volumes --rmi all
 <img width="883" alt="스크린샷 2022-08-19 오후 8 12 46" src="https://user-images.githubusercontent.com/73451727/185606653-bb0f740d-8046-4fe0-b62c-2df4a0d79d1f.png">
 
 
-# create DAG / Bash Operator / Python Operator
+### - create DAG / Bash Operator / Python Operator
+✅ [COMMIT: ENH: ADD DAG / bash operator, python operator](https://github.com/briiidgehong/apache-airflow/commit/bf30065864ae174448cbb012cc4f23dcc29f8703)
 ```
 # example dag exclude setting
 docker-compose down -v # volume 함께 제거
@@ -85,7 +86,7 @@ docker-compose.yaml -> AIRFLOW_CORE_LOAD_EXAMPLES = false 처리 # example dag �
 docker-compose up airflow-init # database init
 docker-compose up -d # 0.0.0.0:8080 example dag 생성 안된것 확인
 ```
-✅ [COMMIT: ENH: ADD DAG / bash operator, python operator](https://github.com/briiidgehong/apache-airflow/commit/bf30065864ae174448cbb012cc4f23dcc29f8703)
+
 
 
 ### - Data Sharing via Airflow XComs
