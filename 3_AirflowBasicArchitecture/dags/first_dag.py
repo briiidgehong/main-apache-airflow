@@ -4,6 +4,10 @@ from airflow.operators.bash import BashOperator
 from airflow.operators.python import PythonOperator
 
 
+def hello_scikit_learn():
+    import sklearn
+    print(f"scikit-learn-version: {sklearn.__version__}")
+
 def hello_python_def(task_id):
     print("hello python operator ! " + task_id)
 
@@ -29,6 +33,10 @@ with DAG(
         python_callable=hello_python_def,
         op_kwargs={"task_id": "task_4"},
     )
+    task5 = PythonOperator(
+        task_id="task_5",
+        python_callable=hello_scikit_learn,
+    )
     # task1 >> task2
     # task1 >> task3
-    task1 >> [task2, task3] >> task4
+    task1 >> [task2, task3] >> task4 >> task5
