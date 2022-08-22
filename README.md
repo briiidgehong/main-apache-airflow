@@ -1,11 +1,11 @@
 # docker-apache-airflow
 
-### - Airflow Basics and Core Concepts
-### - Airflow Task Lifecycle
+## - Airflow Basics and Core Concepts
+## - Airflow Task Lifecycle
 <img width="870" alt="스크린샷 2022-08-19 오후 8 08 04" src="https://user-images.githubusercontent.com/73451727/185606684-698ceb33-5471-477a-8577-3b598be52e33.png">
 <br/>
 
-### - Run Airflow in Python Env
+## - Run Airflow in Python Env
 ```
 python3 -m venv .venv
 
@@ -36,7 +36,7 @@ airflow scheduler -D
 ```
 <br/>
 
-### - Run Airflow in Docker
+## - Run Airflow in Docker
 ```
 # dependency
 docker --version
@@ -72,7 +72,7 @@ docker-compose down --volumes --rmi all
 <img width="1279" alt="스크린샷 2022-08-20 오전 10 58 21" src="https://user-images.githubusercontent.com/73451727/185725542-ebeda8d7-42f2-4a17-aed8-73bd6d941d7d.png">
 <br/>
 
-### - Airflow Basic Architecture
+## - Airflow Basic Architecture
 ✅ [COMMIT: CeleryExecutor -> LocalExecutor](https://github.com/briiidgehong/apache-airflow/commit/ddb76b6b90e6253a9d61cab748bcab5dbed429d0)
 - exclude redis, worker
 <img width="1209" alt="스크린샷 2022-08-20 오후 2 43 59" src="https://user-images.githubusercontent.com/73451727/185730902-882f2b05-f3f6-4f6f-bb92-44ed93cdb810.png">
@@ -80,7 +80,7 @@ docker-compose down --volumes --rmi all
 <img width="883" alt="스크린샷 2022-08-19 오후 8 12 46" src="https://user-images.githubusercontent.com/73451727/185606653-bb0f740d-8046-4fe0-b62c-2df4a0d79d1f.png">
 <br/>
 
-### - create DAG / Bash Operator / Python Operator
+## - Create DAG / Bash Operator / Python Operator
 ✅ [COMMIT: ENH: ADD DAG / bash operator, python operator](https://github.com/briiidgehong/apache-airflow/commit/bf30065864ae174448cbb012cc4f23dcc29f8703)
 ```
 # example dag exclude setting
@@ -91,7 +91,7 @@ docker-compose up -d # 0.0.0.0:8080 example dag 생성 안된것 확인
 ```
 <br/>
 
-### - Airflow Docker Install Python Package Using Extension way
+## - Airflow Docker Install Python Package Using Extension way
 ✅ [COMMIT: base image custom](https://github.com/briiidgehong/apache-airflow/commit/a3ad23944823094931565bd87199296f3ca78e66)
 ```
 # create base image 
@@ -102,19 +102,12 @@ docker-compose up --build -d
 ```
 <br/>
 
-### - Data Sharing via Airflow XComs
-### - Airflow Task Flow API (decorator를 사용해 DAG와 Tast를 구성하는 방식)
-### - Airflow Catch Up and Backfill
-### - Airflow Scheduler with Cron Expression
+## - Data Sharing via Airflow XComs
+## - Airflow Task Flow API (decorator를 사용해 DAG와 Tast를 구성하는 방식)
+## - Airflow Catch Up and Backfill
+## - Airflow Scheduler with Cron Expression
 
-```
-
-### - Airflow Docker Install Python Package Using Docker Extension way
-dockerfile 로 base image build / build 시에 requirement.txt install 
-docker-compose base image를 해당 dockerfile로 교체
-
-
-### Postgres hook
+## Postgresql hook
 ### - Airflow Connection to Postgres
 ### - Airflow Postgres Operator
 ### - Airflow Hooks S3 PostgreSQL
