@@ -3,6 +3,7 @@
 ### - Airflow Basics and Core Concepts
 ### - Airflow Task Lifecycle
 <img width="870" alt="스크린샷 2022-08-19 오후 8 08 04" src="https://user-images.githubusercontent.com/73451727/185606684-698ceb33-5471-477a-8577-3b598be52e33.png">
+<br/>
 
 ### - Run Airflow in Python Env
 ```
@@ -33,6 +34,7 @@ The DAGs list may not update, and new tasks will not be scheduled.
 
 airflow scheduler -D
 ```
+<br/>
 
 ### - Run Airflow in Docker
 ```
@@ -68,6 +70,7 @@ docker-compose down --volumes --rmi all
 
 ```
 <img width="1279" alt="스크린샷 2022-08-20 오전 10 58 21" src="https://user-images.githubusercontent.com/73451727/185725542-ebeda8d7-42f2-4a17-aed8-73bd6d941d7d.png">
+<br/>
 
 ### - Airflow Basic Architecture
 ✅ [COMMIT: CeleryExecutor -> LocalExecutor](https://github.com/briiidgehong/apache-airflow/commit/ddb76b6b90e6253a9d61cab748bcab5dbed429d0)
@@ -75,21 +78,23 @@ docker-compose down --volumes --rmi all
 <img width="1209" alt="스크린샷 2022-08-20 오후 2 43 59" src="https://user-images.githubusercontent.com/73451727/185730902-882f2b05-f3f6-4f6f-bb92-44ed93cdb810.png">
 
 <img width="883" alt="스크린샷 2022-08-19 오후 8 12 46" src="https://user-images.githubusercontent.com/73451727/185606653-bb0f740d-8046-4fe0-b62c-2df4a0d79d1f.png">
+<br/>
 
-
+### - create DAG / Bash Operator / Python Operator
+✅ [COMMIT: ENH: ADD DAG / bash operator, python operator](https://github.com/briiidgehong/apache-airflow/commit/bf30065864ae174448cbb012cc4f23dcc29f8703)
 ```
-# create DAG
+# example dag exclude setting
 docker-compose down -v # volume 함께 제거
 docker-compose.yaml -> AIRFLOW_CORE_LOAD_EXAMPLES = false 처리 # example dag 생성 false
 docker-compose up airflow-init # database init
 docker-compose up -d # 0.0.0.0:8080 example dag 생성 안된것 확인
-
-
-
-#  Bash Operator
-# Python Operator
-
 ```
+<br/>
+
+### - Airflow Docker Install Python Package Using Extension way
+dockerfile 로 base image build / build 시에 requirement.txt install 
+docker-compose base image를 해당 dockerfile로 교체
+
 
 ### - Data Sharing via Airflow XComs
 ### - Airflow Task Flow API (decorator를 사용해 DAG와 Tast를 구성하는 방식)
