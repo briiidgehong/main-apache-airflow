@@ -92,9 +92,15 @@ docker-compose up -d # 0.0.0.0:8080 example dag 생성 안된것 확인
 <br/>
 
 ### - Airflow Docker Install Python Package Using Extension way
-dockerfile 로 base image build / build 시에 requirement.txt install 
-docker-compose base image를 해당 dockerfile로 교체
+✅ [COMMIT: base image custom](https://github.com/briiidgehong/apache-airflow/commit/a3ad23944823094931565bd87199296f3ca78e66)
+```
+# create base image 
+docker build . --tag extended_airflow_2.3.3_image:latest
 
+# docker-compose file base image 변경후 up
+docker-compose up --build -d
+```
+<br/>
 
 ### - Data Sharing via Airflow XComs
 ### - Airflow Task Flow API (decorator를 사용해 DAG와 Tast를 구성하는 방식)
