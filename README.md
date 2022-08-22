@@ -81,7 +81,7 @@ docker-compose down --volumes --rmi all
 <br/>
 
 ## - Create DAG / Bash Operator / Python Operator
-✅ [COMMIT: ENH: ADD DAG / bash operator, python operator](https://github.com/briiidgehong/apache-airflow/commit/bf30065864ae174448cbb012cc4f23dcc29f8703)
+✅ [COMMIT: ENH: ADD DAG / bash operator / python operator](https://github.com/briiidgehong/apache-airflow/commit/bf30065864ae174448cbb012cc4f23dcc29f8703)
 ```
 # example dag exclude setting
 docker-compose down -v # volume 함께 제거
