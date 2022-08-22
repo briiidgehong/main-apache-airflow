@@ -102,15 +102,20 @@ docker-compose up --build -d
 ```
 <br/>
 
+## - Airflow connection and hook
+<br/>
+
+## - Production Setting
+<br/>
+
+## - Airflow ECS operator with Fargate
+<br/>
+
 ## - Data Sharing via Airflow XComs
 ## - Airflow Task Flow API (decorator를 사용해 DAG와 Tast를 구성하는 방식)
 ## - Airflow Catch Up and Backfill
 ## - Airflow Scheduler with Cron Expression
-
-## Postgresql hook
-### - Airflow Connection to Postgres
-### - Airflow Postgres Operator
-### - Airflow Hooks S3 PostgreSQL
+## - Airflow AWS S3 Sensor Operator
 
 
 ref) 
