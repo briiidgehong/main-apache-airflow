@@ -118,6 +118,8 @@ docker-compose up --build -d
 ## - Airflow AWS S3 Sensor Operator
 
 
+## - [Airflow on K8s vs k8s operator / executor](https://engineering.linecorp.com/ko/blog/data-engineering-with-airflow-k8s-2/)
+
 ref) 
 ##### https://www.youtube.com/watch?v=K9AnJ9_ZAXE&t=1642s
 ##### https://airflow.apache.org/docs/apache-airflow/stable/start/docker.html
