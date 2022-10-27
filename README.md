@@ -115,8 +115,8 @@ docker-compose up --build -d
 ## - Airflow Task Flow API (decorator를 사용해 DAG와 Tast를 구성하는 방식)
 ## - Airflow Catch Up and Backfill
 ## - Airflow Scheduler with Cron Expression
-rf) https://blog.bsk.im/2021/03/21/apache-airflow-aip-39/
-### - start_date / schedule_interval / data_interval_start / data_interval_end
+> rf) https://blog.bsk.im/2021/03/21/apache-airflow-aip-39/
+> ### start_date / schedule_interval / data_interval_start / data_interval_end
 
 ## - Airflow AWS S3 Sensor Operator
 
