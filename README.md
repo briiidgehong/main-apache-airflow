@@ -128,4 +128,11 @@ ref)
 ##### https://airflow.apache.org/docs/apache-airflow/stable/start/docker.html
 
 
+## - MWAA configuration
+- aws cli로 curl post접근, airflow backfill 실행시에 pickling 관련 오류 <br/>
+- donot_pickle = True 처리해주어야함, 보통이라면 airflow.cfg에 정의하면 되지만 MWAA는 콘솔에서 따로 환경변수 지정해줘야함 <br/>
+https://airflow.apache.org/docs/apache-airflow/2.2.2/configurations-ref.html#donot-pickle <br/>
+<img width="743" alt="스크린샷 2022-10-31 오후 3 41 36" src="https://user-images.githubusercontent.com/73451727/198947115-d5fb00b3-1162-49bc-8951-ffba7ad58d7b.png">
+
+
 
