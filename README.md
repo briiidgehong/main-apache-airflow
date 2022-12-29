@@ -134,5 +134,7 @@ ref)
 https://airflow.apache.org/docs/apache-airflow/2.2.2/configurations-ref.html#donot-pickle <br/>
 <img width="743" alt="스크린샷 2022-10-31 오후 3 41 36" src="https://user-images.githubusercontent.com/73451727/198947115-d5fb00b3-1162-49bc-8951-ffba7ad58d7b.png">
 
+## - third party application
+[airflow-code-editor](https://github.com/andreax79/airflow-code-editor)
 
 
